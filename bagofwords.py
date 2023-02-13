@@ -1,13 +1,3 @@
-# Your task will be to generate the document term matrix, from documents retrieved from the internet and
-# print this matrix to the screen. Therefore:
-# a) Consider that all lists of sentences must be transformed into lists of vectors,
-# where each item will be one of the words in the sentence.
-# b) All vectors must be merged into a single corpus forming a list of vectors,
-# where each item will be a lexeme.
-# c) This single corpus will be used to generate the vocabulary.
-# d) The expected result will be a term document matrix created from the application of the
-# bag of words technique throughout the corpus.
-
 import re
 import pandas
 import requests
